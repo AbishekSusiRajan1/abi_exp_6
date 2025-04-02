@@ -24,7 +24,6 @@ class Employee:
         ============================
         """
         return payslip
-
 #initilizing value
 employee1 = Employee(emp_id="E101", name="Abishek", basic_salary=50000, tax_rate=0.1, bonus=5000)
 print(employee1.generate_payslip())
